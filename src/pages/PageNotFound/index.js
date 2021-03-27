@@ -1,16 +1,9 @@
 import React from 'react'
-import { Container, FlexCentered, Title } from '~/common/styles'
+
+import TemplateMessage from '~/pages/TemplateMessage'
 
 const PageNotFound = function _PageNotFound() {
-  return (
-    <Container>
-			<FlexCentered>
-				<Title>
-					Página não encontrada
-				</Title>
-			</FlexCentered>
-		</Container>
-  )
+  return <TemplateMessage message='Página não encontrada'/>
 }
 
 export default PageNotFound
